@@ -1,0 +1,27 @@
+{
+  "devDependencies": {
+    "@types/dom-view-transitions": "^1.0.6",
+    "canvas-confetti": "^1.9.3",
+    "vitepress": "^1.6.3"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "dependencies": {
+    "medium-zoom": "^1.1.0",
+    "nprogress-v2": "^1.1.10",
+    "vue": "^3.5.16"
+  },
+  "name": "vitepress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
