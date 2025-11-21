@@ -14,7 +14,7 @@ text: Markdown的基本语法学习
 
 #后面是有一个空格的，下面的语法大部分基本也是有的  // [!code error]
 ```
-![](/title.png)
+![](/img/title.png)
 ### 二、段落  
 ```markdown
 这是一个段落
@@ -29,7 +29,7 @@ text: Markdown的基本语法学习
 ***加粗并斜体***或者___加粗并斜体
 ~~删除线~~
 ```
-![](/xieti.png)
+![](/img/xieti.png)
 ### 四、列表
 #### 无序列表
 ```markdown
@@ -42,7 +42,7 @@ text: Markdown的基本语法学习
 + 列表项 1
 + 列表项 3
 ```
-![](/list.png)
+![](/img/list.png)
 #### 有序列表
 ```markdown
 1. 第一项
@@ -63,7 +63,7 @@ text: Markdown的基本语法学习
 ![代替文本](链接图片地址) 
 
 ```
-![](/baidu.png)
+![](/img/baidu.png)
 
 #### 外部链接的3种
 

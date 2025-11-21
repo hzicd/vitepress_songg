@@ -14,11 +14,11 @@ title: 下载python
 
 1. 下载（windows篇）  
 
-<img src="/py1.png" alt="图片丢失了" width="800px" height="300px">    
+<img src="/img/py1.png" alt="图片丢失了" width="800px" height="300px">    
 
 2. 安装  
 
-<img src="/py2.png" alt="图片丢失了" width="800px" height="300px">  
+<img src="/img/py2.png" alt="图片丢失了" width="800px" height="300px">  
 
 ::: details 安装说明  
 
@@ -34,7 +34,7 @@ title: 下载python
 
 - [什么是cmd命令提示符→](/Other/computer-basics/index.md#终端cmd和powershell)
 
-<img src="/py3.png" alt="图片丢失了" width="800px" height="300px">
+<img src="/img/py3.png" alt="图片丢失了" width="800px" height="300px">
 
 ---
 
@@ -46,21 +46,21 @@ title: 下载python
 配置环境变量可以简化操作。例如，将某个程序的路径添加到 `PATH` 中后，可以在任意目录下直接运行该程序，而无需再找到这个程序的详细文件目录。
 - `win`+`i`打开设置→系统→系统信息→高级系统设置→环境变量  
 
-<img src="/py7.png" alt="图片丢失了" width="800px" height="300px">  
+<img src="/img/py7.png" alt="图片丢失了" width="800px" height="300px">  
 
 ---  
 
-<img src="/py4.png" alt="图片丢失了" width="800px" height="300px">  
+<img src="/img/py4.png" alt="图片丢失了" width="800px" height="300px">  
 
 - 这里推荐添加到系统变量，双击进入path，这里解释一下切换windows用户指的是下面这个
 
-<img src="/py6.png" alt="图片丢失了" width="800px" height="300px">    
+<img src="/img/py6.png" alt="图片丢失了" width="800px" height="300px">    
 
 ---
 
 - pip第三方库你可以理解为，别人写了一些好用的功能脚本在这个库里面，你可以从这里面下载。  
 
-<img src="/py5.png" alt="图片丢失了" width="800px" height="300px">  
+<img src="/img/py5.png" alt="图片丢失了" width="800px" height="300px">  
 
 :::
   
@@ -78,9 +78,9 @@ title: 下载python
 
 按下`win`键，找到p目录，双击打开
 
-<img src="/py9.png" alt="图片丢失了" width="800px" height="300px">    
+<img src="/img/py9.png" alt="图片丢失了" width="800px" height="300px">    
 
-<img src="/py8.png" alt="图片丢失了" width="800px" height="300px">  
+<img src="/img/py8.png" alt="图片丢失了" width="800px" height="300px">  
 
 :::
 
@@ -93,7 +93,7 @@ title: 下载python
 - 对于初学者来说社区版已经够用，而且免费。专业版需收费
 
 :::
-<img src="/py10.png" alt="图片丢失了" width="800px" height="300px">  
+<img src="/img/py10.png" alt="图片丢失了" width="800px" height="300px">  
 
 ::: warning 警告 
 - 点击下载后，新界面下拉找到社区版，有Community标识
@@ -101,12 +101,12 @@ title: 下载python
 - 我推荐下载2024.3.2版本
 :::
 
-<img src="/py11.png" alt="图片丢失了" width="800px" height="300px">  
+<img src="/img/py11.png" alt="图片丢失了" width="800px" height="300px">  
 
 
 2. 安装
 
-<img src="/pc1.png" alt="图片丢失了" width="800px" height="300px">    
+<img src="/img/pc1.png" alt="图片丢失了" width="800px" height="300px">    
 
 ::: details 安装说明
 - 建议全部勾选
@@ -119,7 +119,7 @@ title: 下载python
 
 ::: details 汉化
 
-<img src="/pc2.png" alt="图片丢失了" width="800px" height="300px">  
+<img src="/img/pc2.png" alt="图片丢失了" width="800px" height="300px">  
 
 :::
 
@@ -130,19 +130,19 @@ title: 下载python
 :::
 
 
-<img src="/pc3.png" alt="图片丢失了" width="800px" height="300px">  
+<img src="/img/pc3.png" alt="图片丢失了" width="800px" height="300px">  
 
 ---  
 
-<img src="/pc4.png" alt="图片丢失了" width="800px" height="300px">  
+<img src="/img/pc4.png" alt="图片丢失了" width="800px" height="300px">  
 
 ---  
 
-<img src="/pc5.png" alt="图片丢失了" width="800px" height="300px">  
+<img src="/img/pc5.png" alt="图片丢失了" width="800px" height="300px">  
 
 ---  
 
-<img src="/pc6.png" alt="图片丢失了" width="800px" height="300px">  
+<img src="/img/pc6.png" alt="图片丢失了" width="800px" height="300px">  
 
 ::: details 虚拟环境说明
 

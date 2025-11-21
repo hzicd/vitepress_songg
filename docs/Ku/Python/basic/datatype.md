@@ -130,7 +130,7 @@ print(a is not b) >>True
 print('hello,world!')
 ```
 
-<img src="/pyfirst.png" alt="图片丢失了" width="800px" height="300px">  
+<img src="/img/pyfirst.png" alt="图片丢失了" width="800px" height="300px">  
 
 :::
 

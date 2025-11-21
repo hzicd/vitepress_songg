@@ -52,9 +52,9 @@ show_info("华子", 18, "睡觉","运动", city="美国边缘小岛", job="无�
 :::details 查看函数的参数类型和返回值
 - 鼠标拖动到函数名，停留几秒后就会有提示
 
-<img src="/fhz1.png" alt="图片丢失了" width="600px" height="600px">  
+<img src="/img/fhz1.png" alt="图片丢失了" width="600px" height="600px">  
 
-<img src="/fhz2.png" alt="图片丢失了" width="600px" height="600px">  
+<img src="/img/fhz2.png" alt="图片丢失了" width="600px" height="600px">  
 :::
 
 # 模块
@@ -115,14 +115,14 @@ print(a) # 4.0
 - 示例：下载一个 `pygame` 库
 1. 通过终端下载，在黑白窗口敲命令  
 
-<img src="/pip1.png" alt="图片消失了~" white="300px" height="300px">  
+<img src="/img/pip1.png" alt="图片消失了~" white="300px" height="300px">  
 
 - 如果终端显示找不到可执行命令，可能是没有配置pip的环境变量，再一个就是没有安装pip。我在前面的[（环境搭建与IDE）](env.html)里有讲过环境变量的配置
 2. pycharm里面直接下载  
 
-<img src="/pip3.png" alt="图片消失了~" white="300px" height="300px">  
+<img src="/img/pip3.png" alt="图片消失了~" white="300px" height="300px">  
 
-<img src="/pip2.png" alt="图片消失了~" white="300px" height="300px">  
+<img src="/img/pip2.png" alt="图片消失了~" white="300px" height="300px">  
 
 ---
 

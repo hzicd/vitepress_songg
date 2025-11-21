@@ -1,43 +1,55 @@
+<template>
+  <div aria-hidden="true" class="vp-confetti"></div>
+</template>
+
 <script setup>
-import { onMounted } from 'vue'
+import { onMounted, onBeforeUnmount } from 'vue'
 import confetti from 'canvas-confetti'
 
-function randomInRange(min, max) {
-  return Math.random() * (max - min) + min
+const defaults = {
+  spread: 360,
+  ticks: 50,
+  gravity: 0,
+  decay: 0.94,
+  startVelocity: 30,
+  colors: ['#FFE400', '#FFBD00', '#E89400', '#FFCA6C', '#FDFFB8']
+}
+
+let timers = []
+
+function shoot() {
+  confetti({
+    ...defaults,
+    particleCount: 40,
+    scalar: 1.2,
+    shapes: ['star']
+  })
+
+  confetti({
+    ...defaults,
+    particleCount: 10,
+    scalar: 0.75,
+    shapes: ['circle']
+  })
 }
 
 onMounted(() => {
-  const duration = 15 * 1000
-  const animationEnd = Date.now() + duration
-  let skew = 1
+  if (typeof window === 'undefined') return
+  timers.push(setTimeout(shoot, 0))
+  timers.push(setTimeout(shoot, 100))
+  timers.push(setTimeout(shoot, 200))
+})
 
-  function frame() {
-    const timeLeft = animationEnd - Date.now()
-    const ticks = Math.max(200, 500 * (timeLeft / duration))
-    skew = Math.max(0.8, skew - 0.001)
-
-    confetti({
-      particleCount: 1,
-      startVelocity: 0,
-      angle: 225, // 西南方向
-      spread: 20, // 控制发射角度范围
-      ticks: ticks,
-      origin: {
-        x: Math.random(),
-        y: (Math.random() * skew) - 0.2
-      },
-      colors: ['#ffffff'],
-      shapes: ['circle'],
-      gravity: randomInRange(0.4, 0.6),
-      scalar: randomInRange(0.4, 1),
-      drift: randomInRange(-0.4, 0.4)
-    })
-
-    if (timeLeft > 0) {
-      requestAnimationFrame(frame)
-    }
-  }
-
-  frame()
+onBeforeUnmount(() => {
+  timers.forEach(t => clearTimeout(t))
+  timers = []
 })
 </script>
+
+<style scoped>
+.vp-confetti {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+</style>

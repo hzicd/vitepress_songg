@@ -8,13 +8,13 @@ title: 计算机基础
 - 如果你将来要从事计算机行业，还是最好买本书或者系统课程，详细过一遍计算机从硬软件的基础。
 ---
 # 计算机组成
-<img src="/jsjzc.png" alt="图片丢失了" width="800px" height="600px">
+<img src="/img/jsjzc.png" alt="图片丢失了" width="800px" height="600px">
   
 # 程序运行图
 
-<img src="/renkong.png" alt="图片丢失了" width="800px" height="600px">
-<img src="/jsjlct.png" alt="图片丢失了" width="800px" height="600px">
-<img src="/jsjjg.png" alt="图片丢失了" width="800px" height="600px">  
+<img src="/img/renkong.png" alt="图片丢失了" width="800px" height="600px">
+<img src="/img/jsjlct.png" alt="图片丢失了" width="800px" height="600px">
+<img src="/img/jsjjg.png" alt="图片丢失了" width="800px" height="600px">  
 
 :::tip 提示
 程序的运行，最底层是电压的变化
@@ -34,12 +34,12 @@ title: 计算机基础
 优点：易开发，可以在不同操作系统运行，语法简明，易掌握。   
 缺点：每次运行时都需要逐行或逐块翻译源代码，运行效率慢。
 :::
-<img src="/yyqb.png" alt="图片丢失了" width="800px" height="600px">   
+<img src="/img/yyqb.png" alt="图片丢失了" width="800px" height="600px">   
 
 # 认识键盘  
 ---
 
-<img src="/jianpantu.png" alt="图片丢失了" width="800px" height="600px">  
+<img src="/img/jianpantu.png" alt="图片丢失了" width="800px" height="600px">  
 
 - 这里简单说明一下控制键区域  
 
@@ -59,15 +59,15 @@ title: 计算机基础
 :::
   
 ##  如何打字
-<img src="/jianpan1.png" alt="图片丢失了" width="800px" height="600px">  
+<img src="/img/jianpan1.png" alt="图片丢失了" width="800px" height="600px">  
 
 ---
 
-<img src="/jianpan2.png" alt="图片丢失了" width="800px" height="600px">  
+<img src="/img/jianpan2.png" alt="图片丢失了" width="800px" height="600px">  
 
 ---  
 
-<img src="/jianpan3.png" alt="图片丢失了" width="800px" height="600px">   
+<img src="/img/jianpan3.png" alt="图片丢失了" width="800px" height="600px">   
 
 ::: details 推荐打字软件
 - 金山打字通：https://www.51dzt.com/
@@ -144,7 +144,7 @@ title: 计算机基础
 
 :::  
 
-<img src="/cmd1.png" alt="图片丢失了" width="800px" height="600px">    
+<img src="/img/cmd1.png" alt="图片丢失了" width="800px" height="600px">    
 
 
 ---

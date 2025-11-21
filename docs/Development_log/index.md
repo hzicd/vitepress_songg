@@ -13,6 +13,9 @@ title: 开发日志归档
 
 
 # *2025*
+## 11月
+- [dist结构化](/Development_log/log/2025-11-21.md)&nbsp;&nbsp;[2025-11-21](/Development_log/log/2025-11-21.md)  
+---
 ## 7月
 - [自动化部署脚本](/Development_log/log/2025-7-31.md)&nbsp;&nbsp;[2025-7-31](/Development_log/log/2025-7-31.md)  
 

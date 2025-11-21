@@ -7,7 +7,7 @@ layout: doc
 - 下图表示运算符按照，先后顺序计算优先级由上往下。
 - 类似数学中，括号优先级最高，先乘除后加减，同样适用于py              
 :::
-<img src="/ysf1.png" alt="图片丢失了" width="600px" height="600px">  
+<img src="/img/ysf1.png" alt="图片丢失了" width="600px" height="600px">  
 
 ```python
 print(2**3)  >>8   #幂运算
@@ -177,7 +177,7 @@ y = 1
 ---
 这里我打开py自带的IDE演示：  
 
-<img src="/zhedui.png" alt="图片消失了~" white="300px" height="300px">
+<img src="/img/zhedui.png" alt="图片消失了~" white="300px" height="300px">
 
 
 

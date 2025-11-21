@@ -1,37 +1,37 @@
 {
-  "hash": "bedea0af",
+  "hash": "f9a45e74",
   "configHash": "f309845e",
-  "lockfileHash": "9e922137",
-  "browserHash": "64fb739b",
+  "lockfileHash": "603817dc",
+  "browserHash": "e643f8e8",
   "optimized": {
     "vue": {
       "src": "../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "a7f06cdd",
+      "fileHash": "7edb599a",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "a07e86db",
+      "fileHash": "d2d7cef1",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "4481c919",
+      "fileHash": "9bb96fa2",
       "needsInterop": false
     },
     "medium-zoom": {
       "src": "../../../node_modules/medium-zoom/dist/medium-zoom.esm.js",
       "file": "medium-zoom.js",
-      "fileHash": "23c98bc5",
+      "fileHash": "5c3e3930",
       "needsInterop": false
     },
     "canvas-confetti": {
       "src": "../../../node_modules/canvas-confetti/dist/confetti.module.mjs",
       "file": "canvas-confetti.js",
-      "fileHash": "a9faddb8",
+      "fileHash": "46b58919",
       "needsInterop": false
     }
   },

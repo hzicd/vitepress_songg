@@ -5,7 +5,7 @@ hero:
   text: "留下只有回忆的灰"
   tagline: 欲买桂花同载酒，终不似，少年游
   image: 
-    src: /zytpp.png
+    src: /img/zytpp.png
     alt: logo
   actions:
     - theme: brand

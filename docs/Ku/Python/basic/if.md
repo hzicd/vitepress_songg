@@ -295,7 +295,7 @@ while True:
 - 我们继续往下拆解，这些功能，又是调用了系统内的某些东西，最终操纵计算机。这又是一层封装。再到后面物理上的电压高低的变化的封装成0和1机器码
 - 在pycharm初步查看一个函数的源码，按住`ctrl`，鼠标拖到函数名上，鼠标会变成小手，点击进入
 - 例如：内置函数print。注意有个参数是`end=\n`下面有关讲到
-<img src="/printym.png" alt="图片丢失了" width="600px" height="600px">  
+<img src="/img/printym.png" alt="图片丢失了" width="600px" height="600px">  
 :::
 ::: details 转义字符 `\n` `\r` `\t` `\b`的用法
 - \n理解为回车键，是个换行符

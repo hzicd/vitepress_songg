@@ -1,17 +1,18 @@
 <!-- .vitepress/theme/MyLayout.vue -->
-
-<script setup lang="ts">
-import { useData } from 'vitepress'
+<script setup>
 import DefaultTheme from 'vitepress/theme'
+import { useData } from 'vitepress'
 import { nextTick, provide } from 'vue'
 
 const { isDark } = useData()
 
 const enableTransitions = () =>
+  typeof document !== 'undefined' &&
+  typeof window !== 'undefined' &&
   'startViewTransition' in document &&
   window.matchMedia('(prefers-reduced-motion: no-preference)').matches
 
-provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
+provide('toggle-appearance', async ({ clientX: x, clientY: y }) => {
   if (!enableTransitions()) {
     isDark.value = !isDark.value
     return
@@ -30,11 +31,14 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
     await nextTick()
   }).ready
 
+  const animateClip = isDark.value ? [...clipPath].reverse() : clipPath
+
   document.documentElement.animate(
-    { clipPath: isDark.value ? clipPath.reverse() : clipPath },
+    { clipPath: animateClip },
     {
       duration: 300,
       easing: 'ease-in',
+      fill: 'forwards',
       pseudoElement: `::view-transition-${isDark.value ? 'old' : 'new'}(root)`
     }
   )
@@ -43,7 +47,7 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
 
 <template>
   <DefaultTheme.Layout>
-    <!-- 这里可以插入其他插槽组件 -->
+    <!-- 这里是已有的插槽组件 -->
   </DefaultTheme.Layout>
 </template>
 
@@ -64,11 +68,17 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
   z-index: 9999;
 }
 
-.VPSwitchAppearance {
+/* 恢复原始开关按钮 */
+/* .VPSwitchAppearance {
   width: 22px !important;
-}
+} */
 
 .VPSwitchAppearance .check {
   transform: none !important;
+}
+
+/* 修正因视图过渡导致的按钮图标偏移 */
+.VPSwitchAppearance .check .icon {
+  top: -2px;
 }
 </style>
