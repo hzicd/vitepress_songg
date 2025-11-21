@@ -23,9 +23,9 @@ export default defineConfig({
     search: {
       provider: 'algolia',
       options: {
-        appId: '3L32HEBJEP',
-        apiKey: 'cb88a85a8653b8f08625f0d57ef9317e',
-        indexName: '<INDEX_NAME>',
+        appId: 'MA4B33E3QF',
+        apiKey: 'acd76b80d7b34f90672332dbb88cacd6',
+        indexName: 'doc',
       },
     },
     appearance: 'light',
