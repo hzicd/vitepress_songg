@@ -1,0 +1,1 @@
+This is my blog. Since I'm in China, the CI/CD process was extremely slow because GitHub's servers are overseas while my server is located domestically. Therefore, I migrated the code to Gitee (a domestic code hosting platform in China). Once my domestic server expires, I will move the blog code back to GitHub for updates and deploy it using GitHub Pages.
