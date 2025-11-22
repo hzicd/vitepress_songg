@@ -32,7 +32,7 @@ title: 下载python
 
 -  输入`python`后，回车，如果出现下面这样的图，则代表你安装成功了  
 
-- [什么是cmd命令提示符→](/Other/computer-basics/index.md#终端cmd和powershell)
+- [什么是cmd命令提示符→](/Other/computer-basics/computer_basics.md#终端cmd和powershell)
 
 <img src="/img/py3.png" alt="图片丢失了" width="800px" height="300px">
 

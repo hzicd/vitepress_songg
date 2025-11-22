@@ -79,7 +79,7 @@ with open('example.txt', 'a') as file:
 ::: details 关于编码报错`UnicodeDecodeError`
 - 当你文件里有中文时候，可能会报错有关编码问题，这里其实是编码不匹配。
 - `解决`：再加一个参数`encoding="utf-8"`
-- 了解一下[计算机编码→](/Other/computer-basics/#计算机编码详解)
+- 了解一下[计算机编码→](/Other/computer-basics/computer_basics.md#计算机编码详解)
 ```py
 # 示例：文件实际用 utf-8 编码，明确指定
 with open("data.txt", "r", encoding="utf-8") as f:
