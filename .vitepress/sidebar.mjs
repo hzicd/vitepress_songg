@@ -53,8 +53,6 @@ export default {
                 { text: '性能优化', link: '/Ku/Python/tips/optimize.md' },
                 { text: '常用第三方库', link: '/Ku/Python/tips/libs.md' },
                 { text: '代码规范与风格', link: '/Ku/Python/tips/pep8.md' },
-                { text: '常见面试题', link: '/python/tips/interview.md' },
-                { text: '学习资源', link: '/python/tips/resources.md' }
             ]
         }
     ],
