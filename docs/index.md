@@ -10,13 +10,13 @@ hero:
   actions:
     - theme: brand
       text: Life log
-      link: /Life_log
+      link: /Life_log.md
     - theme: alt
       text: About me
-      link: /Life_log/About_me
+      link: /Life_log/About_me.md
     - theme: alt
       text: Development log
-      link: /Development_log
+      link: /Development_log/index.md
 
 features:
   - title: Python
